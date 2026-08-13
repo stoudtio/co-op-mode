@@ -9,7 +9,7 @@ Glossary for co-op-mode — a self-building, self-healing, build-in-the-open age
 - **Founder** — the first Crew member, established at Genesis.
 - **Executive Producer** — Jason. The only human. Steers via Directives; never required for the World to keep running.
 - **Tick** — one scheduled autonomous session (2–4 per day) in which the Crew acts: reads Directives, does work, updates world state, posts.
-- **Genesis** — the one-time first Tick that establishes the Founder's persona, the World's canon, and its public voice.
+- **Genesis** — the first Tick, which finds the world state empty and births the World instead of advancing it: the Founder self-invents persona and canon within seeded constraints, and introduces itself publicly. Not special machinery — any Tick that finds an empty world runs Genesis.
 - **Directive** — work or steering injected by the Executive Producer, via a GitHub issue on this repo or a message in the Crew's Slack channel. Picked up at the next Tick.
 - **Recap** — the short daily post summarizing what happened in the World.
 - **Episode** — the richer weekly narrative artifact.
@@ -18,7 +18,8 @@ Glossary for co-op-mode — a self-building, self-healing, build-in-the-open age
 - **Heartbeat** — evidence the World is alive. **First heartbeat** — the first full autonomous cycle (Tick → world-state commit → post) with no human involvement; the destination of the initial wayfinder map.
 - **Fixer Tick** — a self-healing session triggered by a red CI run: reproduce, fix or revert, open a PR. Narrated in-fiction as an incident.
 - **Watchdog** — the workflow that notices a stuck or silent Tick, kills/retries it, and files an Incident.
-- **Incident** — an in-repo issue documenting a failure, written in the World's voice.
+- **Incident** — an in-repo issue documenting a failure: narrated in the World's voice, with an out-of-fiction technical appendix (real error, real fix, real links).
+- **Guardrails** — the hard limits on the World's public voice, present in every posting Tick: no real people or companies (Executive Producer and tool vendors excepted, factually only); no politics, religion, or real-world tragedy; AI disclosure everywhere; no solicitation.
 - **Hire** — a Crew growth event. Allowed only under the cap of five and only when the month's spend is tracking under budget; the Founder must make the case publicly.
 
 ## Invariants
